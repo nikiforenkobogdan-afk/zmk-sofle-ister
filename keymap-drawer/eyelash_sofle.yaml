@@ -94,10 +94,10 @@ layers:
   - {t: '=', s: +}
   - $$mdi:apple-keyboard-control$$
   - '~'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MB5'
+  - RGB COLOR HSB(121,100,50)
+  - RGB COLOR HSB(177,100,50)
+  - RGB COLOR HSB(0,96,50)
+  - RGB COLOR HSB(290,100,50)
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - PG DN
   - $$mdi:arrow-left-bold$$
