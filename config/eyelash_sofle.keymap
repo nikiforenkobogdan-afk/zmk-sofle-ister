@@ -71,7 +71,7 @@
 &trans            &kp GRAVE         &mkp LCLK                          &mkp MCLK                          &mkp RCLK                       &mkp MB4                             &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
 &kp LEFT_CONTROL  &kp TILDE         &rgb_ug RGB_COLOR_HSB(121,100,50)  &rgb_ug RGB_COLOR_HSB(177,100,50)  &rgb_ug RGB_COLOR_HSB(0,96,50)  &rgb_ug RGB_COLOR_HSB(290,100,50)    &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &kp LEFT_SHIFT    &rgb_ug RGB_OFF   &rgb_ug RGB_ON                     &rgb_ug RGB_EFF                    &rgb_ug RGB_EFR                 &rgb_ug RGB_SPI                      &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
-&kp C_MUTE        &kp LEFT_CONTROL  &trans                             &trans                             &trans                          &trans                               &mkp LCLK        &trans           &trans           &trans      &trans     &trans
+&kp C_MUTE        &kp LEFT_CONTROL  &kp LEFT_ALT                       &trans                             &trans                          &trans                               &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
 
             display-name = "layer1";
@@ -80,11 +80,11 @@
 
         layer_2 {
             bindings = <
-&kp TILDE       &kp F1        &kp F2          &kp F3       &kp F4  &kp F5    &mmv MOVE_UP     &kp F6  &kp F7  &kp F8      &kp F9     &kp F10      &trans
-&trans          &bt BT_CLR    &bt BT_CLR_ALL  &trans       &trans  &trans    &mmv MOVE_DOWN   &trans  &trans  &kp F11     &kp F12    &kp MINUS    &kp EQUAL
-&trans          &out OUT_USB  &out OUT_BLE    &trans       &trans  &trans    &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &kp LBRC     &kp RBRC
-&kp LEFT_SHIFT  &sys_reset    &trans          &bootloader  &trans  &trans    &mmv MOVE_RIGHT  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
-&trans          &trans        &trans          &trans       &trans  &trans    &mkp LCLK        &trans  &trans  &trans      &trans     &trans
+&kp TILDE       &kp F1            &kp F2          &kp F3       &kp F4  &kp F5    &mmv MOVE_UP     &kp F6  &kp F7  &kp F8      &kp F9     &kp F10      &trans
+&trans          &bt BT_CLR        &bt BT_CLR_ALL  &trans       &trans  &trans    &mmv MOVE_DOWN   &trans  &trans  &kp F11     &kp F12    &kp MINUS    &kp EQUAL
+&trans          &out OUT_USB      &out OUT_BLE    &trans       &trans  &trans    &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &kp LBRC     &kp RBRC
+&kp LEFT_SHIFT  &sys_reset        &trans          &bootloader  &trans  &trans    &mmv MOVE_RIGHT  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
+&trans          &kp LEFT_CONTROL  &kp LEFT_ALT    &trans       &trans  &trans    &mkp LCLK        &trans  &trans  &trans      &trans     &trans
             >;
 
             display-name = "layer2";
