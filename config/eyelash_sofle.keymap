@@ -46,21 +46,21 @@
         win_e: win_e {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_WIN &kp E>;
+            bindings = <&sk LEFT_WIN &kp E>;
             label = "WIN_E";
         };
 
         screen_ph: screen_ph {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_SHIFT &kp GRAVE>;
+            bindings = <&sk LEFT_SHIFT &kp GRAVE>;
             label = "SCREEN_PH";
         };
 
         screen_vid: screen_vid {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp GRAVE>;
+            bindings = <&sk LEFT_CONTROL &kp GRAVE>;
             label = "SCREEN_VID";
         };
     };
