@@ -63,6 +63,13 @@
             bindings = <&sk LEFT_CONTROL &kp GRAVE>;
             label = "SCREEN_VID";
         };
+
+        alt_f4: alt_f4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&sk LA(LEFT_ALT) &kp F4>;
+            label = "ALT_F4";
+        };
     };
 
     keymap {
@@ -83,11 +90,11 @@
 
         layer_1 {
             bindings = <
-&screen_ph        &kp F1            &kp F2                             &kp F3                             &kp F4                          &kp F5                               &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &trans
-&screen_vid       &kp GRAVE         &mkp LCLK                          &mkp MCLK                          &mkp RCLK                       &mkp MB4                             &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
-&kp LEFT_CONTROL  &kp TILDE         &rgb_ug RGB_COLOR_HSB(121,100,50)  &rgb_ug RGB_COLOR_HSB(177,100,50)  &rgb_ug RGB_COLOR_HSB(0,96,50)  &rgb_ug RGB_COLOR_HSB(290,100,50)    &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp LEFT_SHIFT    &rgb_ug RGB_OFF   &rgb_ug RGB_ON                     &rgb_ug RGB_EFF                    &rgb_ug RGB_EFR                 &rgb_ug RGB_SPI                      &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
-&kp C_MUTE        &kp LEFT_CONTROL  &kp LEFT_ALT                       &kp LEFT_CONTROL                   &trans                          &trans                               &mkp LCLK        &trans           &trans           &trans      &trans     &trans
+&screen_ph        &kp F1           &kp F2                             &kp F3                             &kp F4                          &kp F5                               &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &kp F11
+&screen_vid       &kp N0           &kp P                              &kp N                              &kp MINUS                       &kp EQUAL                            &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
+&kp LEFT_CONTROL  &kp TILDE        &rgb_ug RGB_COLOR_HSB(121,100,50)  &rgb_ug RGB_COLOR_HSB(177,100,50)  &rgb_ug RGB_COLOR_HSB(0,96,50)  &rgb_ug RGB_COLOR_HSB(290,100,50)    &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp LEFT_SHIFT    &rgb_ug RGB_OFF  &rgb_ug RGB_ON                     &rgb_ug RGB_EFF                    &rgb_ug RGB_EFR                 &rgb_ug RGB_SPI                      &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
+&kp C_MUTE        &alt_f4          &kp LEFT_ALT                       &kp LEFT_CONTROL                   &trans                          &trans                               &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
 
             display-name = "layer1";
