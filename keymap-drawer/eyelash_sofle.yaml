@@ -92,7 +92,7 @@ layers:
   - HOME
   - {t: '-', s: _}
   - {t: '=', s: +}
-  - $$mdi:apple-keyboard-control$$
+  - '~'
   - '~'
   - RGB COLOR HSB(121,100,50)
   - RGB COLOR HSB(177,100,50)
