@@ -64,7 +64,7 @@ layers:
   - layer2
   - '&win_e'
   - LEFT WIN
-  - $$mdi:apple-keyboard-shift$$
+  - '~'
   layer1:
   - '&screen_ph'
   - F1
@@ -91,8 +91,8 @@ layers:
   - $$mdi:arrow-up-bold$$
   - HOME
   - {t: '-', s: _}
-  - {t: '=', s: +}
-  - '~'
+  - F12
+  - {t: '$$mdi:backspace$$', type: backspace}
   - '~'
   - RGB COLOR HSB(121,100,50)
   - RGB COLOR HSB(177,100,50)
@@ -131,7 +131,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   layer2:
-  - '~'
+  - $$mdi:keyboard-esc$$
   - F1
   - F2
   - F3
