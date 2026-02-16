@@ -93,7 +93,7 @@ layers:
   - {t: '-', s: _}
   - F12
   - {t: '$$mdi:backspace$$', type: backspace}
-  - '~'
+  - {t: '`', s: '~'}
   - RGB COLOR HSB(121,100,50)
   - RGB COLOR HSB(177,100,50)
   - RGB COLOR HSB(0,96,50)
