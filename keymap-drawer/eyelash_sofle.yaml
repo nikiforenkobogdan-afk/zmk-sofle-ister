@@ -108,9 +108,9 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - RGB OFF
   - RGB ON
-  - RGB EFF
-  - RGB EFR
-  - RGB SPI
+  - Y
+  - H
+  - L
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - RGB BRI
   - RGB BRD
